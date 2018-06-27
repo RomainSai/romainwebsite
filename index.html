@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <link href="romain.css" rel="stylesheet">
-        <title>Romain's Website</title>    
+        <script type="text/javascript" src="thp.js"></script>
+        <title>Romain's Website</title>
+        <!-- jquery -->
+        <script type="text/javascript" src="jquery-3.3.1.min.js"></script> 
     </head>
     <body>
         <header>
@@ -82,7 +85,7 @@
                     </li>
                     <li>
                         Use <em>some</em> fucking 
-                        <a class="blink">colors</a>.
+                        <span class="colores" id="rbw" style="color: rgb;">colors</span>.
                     </li>
                     <li>
                         Links don't really need to keep that 
@@ -108,8 +111,6 @@
             </p>
             
             <ul>
-                <a class="nc" href=""></a>
-                
                 <li>
                     It's over a 
                     <a class="nc" href="https://en.wikipedia.org/wiki/HTTPS">secure connection</a> - so nobody can spy what we're serving to you (the page might be different for everyone, pshht!).
@@ -277,7 +278,43 @@
                 <img class="kopimi "src="images/kopimi.png" title="Kopimi Logo">
             </a>
         
+            <h2>Contributions</h2>
         
+            <p>
+                Since this website includes some contributions, and I'm not an asshole, I'll publically thank the following users for their help:
+            </p>
+        
+            <ul>
+                
+                <li>
+                    <a class="nc" href="https://github.com/beardog108">@beardog108</a>  for his <a class="nc" href="https://github.com/denysvitali/thebestmotherfuckingwebsite/issues/5">precious suggestions</a> for the server side part (Cache-Control, HTTP/2, CORS and Piwik)
+                </li>
+                
+                <li>
+                        <a class="nc" href="https://github.com/5ilver">@5ilver</a>, <a class="nc" href="https://github.com/abluejelly">@abluejelly</a>, <a class="nc" href="https://github.com/bharadwaj-raju">@bharadwaj-raju</a> for giving tips about <a class="nc" href="https://github.com/denysvitali/thebestmotherfuckingwebsite/issues?q=label%3Acontrast">contrast</a>
+                </li>
+                
+                <li>
+                        @hellerbarde for his hint about the visited link color (he proposed maroon) - if you don't like it, complain about it here
+                </li>
+                
+                <li>
+                        @glodime for his suggestion about text justification on mobile
+                </li>
+                
+                <li>
+                        @arthurtiteica and @vktec for their suggestions about PIN Code / RAS Syndrome fix.
+                </li>
+                
+                <li>
+                        @Zsavajji, @CapacitorSet, @danielquinn, @ehea617, @MrSaad, @tqdv for their help in spell checking
+                </li>
+        
+            </ul>
+    
+            <div id="contrast">Add more contrast</div>
+            <div id="invmode">Inverted mode</div>
+    
     </body>
     
         

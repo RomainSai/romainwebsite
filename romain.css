@@ -39,7 +39,7 @@ body{
 }
 
 .nc:visited{
-    color: brown;
+    color: #85144b;
 }
 
 body ul li img{
@@ -97,3 +97,30 @@ blockquote author{
 .kopimi img{
     height: 2em;
 }
+
+
+#contrast{
+    color: #000;
+    top: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    font-size: .8em;
+    text-decoration: underline;
+    user-select: none;
+}
+
+#invmode{
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    position: absolute;
+    top: 34px;
+    right: 10px;
+    padding: 2px 5px;
+    font-size: .8em;
+    text-decoration: underline;
+    user-select: none;
+}
+
+
