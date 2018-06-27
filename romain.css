@@ -1,0 +1,99 @@
+body{
+    font-family: open Sans,Arial;
+    color: #454545;
+    font-size: 16px;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.first{
+    margin-top: -1em;
+}
+
+.mfw{
+    color: green;
+}
+
+.wrong{
+    color: firebrick;
+    text-decoration: underline;
+}
+
+.small{
+    font-size: 8px;
+}
+
+.blink{
+    animation: infinite;
+}
+
+.sb{
+    color: blue;
+}
+
+.sv{
+    color: #551a8b;
+}
+
+.nc:visited{
+    color: brown;
+}
+
+body ul li img{
+    height: 1em;
+}
+
+.fakepre{
+    font-family: monospace;
+    font-size: .9em;
+}
+
+.cat{
+    display: block;
+}
+.picture-left{
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 1em;
+}
+
+.caption{
+    font-size: .7em;
+}
+
+.left{
+    float: left;
+    width: 55%;
+    height: 280px;
+    margin: none;
+}
+
+.left p{
+    margin-top: 0;
+}
+
+blockquote author{
+    display: block;
+    font-size: .6em;
+    font-style: oblique;
+}
+
+.citneed{
+    vertical-align: top;
+    font-size: .7em;
+    padding-left: .3em;
+}
+
+.kopimi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kopimi img{
+    height: 2em;
+}
