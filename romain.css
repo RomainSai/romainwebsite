@@ -9,6 +9,16 @@ body{
     text-align: justify;
 }
 
+.buttons{
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    border-radius: 4px;
+    width: 150px;
+    line-height: 25px;
+}
+
+
 .first{
     margin-top: -1em;
 }
@@ -123,4 +133,4 @@ blockquote author{
     user-select: none;
 }
 
-
+/* ------------------- pour le Popup ---------------------- */
